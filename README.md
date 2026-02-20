@@ -1,2 +1,3 @@
-# Proyecto-CORTEX-equipoTutordematematicas
-Hola
+# Proyecto-CORTEX-equipoTutordematematicas.
+
+##Profesor Universitario de Matematicas.
