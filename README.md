@@ -1,4 +1,4 @@
-# Proyecto-CORTEX-equipoTutordematematicas.
+# **Proyecto-CORTEX-equipoTutordematematicas.**
 ## **Integrantes**
 - **Juan**
 - **Josh**
