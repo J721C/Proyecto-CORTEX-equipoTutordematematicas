@@ -6,5 +6,6 @@
 ## Profesor Universitario de Matematicas.
 ## 1. Perfil del agente
 <img width="1454" height="366" alt="image" src="https://github.com/user-attachments/assets/a79a1d14-e9ea-47a5-b4f4-7944ab97ac68" />
-## 2. El radar Cognitivo
+# **2. El radar Cognitivo**
+<img width="684" height="633" alt="image" src="https://github.com/user-attachments/assets/7f957a91-e60c-4c22-9e4d-c499374d03be" />
 
