@@ -11,3 +11,6 @@
 
 <img width="684" height="633" alt="image" src="https://github.com/user-attachments/assets/7f957a91-e60c-4c22-9e4d-c499374d03be" />
 
+# Diagrama
+## 2. Sistema de Percepción y Atención
+- Nuesto sistema 
