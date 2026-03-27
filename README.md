@@ -32,7 +32,7 @@ Unos ejemplos serian:
 - Priorizar: Sustantivos clave, Variables matemáticas, Números y ecuaciones.
 - Ignorar: Adjetivos innecesarios, Texto narrativo no técnico
 ## Regla 2: Detección de intención
- Si hay una pregunta explícita → priorizarla,  Si hay múltiples preguntas → seleccionar la más matemática,  Si no hay pregunta → inferir intención principal.
+- Si hay una pregunta explícita → priorizarla,  Si hay múltiples preguntas → seleccionar la más matemática,  Si no hay pregunta → inferir intención principal.
 ## Regla 3: Prioridad matemática
  - Detectar y priorizar:
  Ecuaciones,  Símbolos matemáticos,  Expresiones formales, 
@@ -51,7 +51,7 @@ Unos ejemplos serian:
 - Resumir el input en:
  Problema central, Datos conocidos, Lo que se pide, Ignorar contenido no esencial
 ## Regla 7: Contexto acumulado
- Priorizar información reciente, Mantener coherencia con mensajes anteriores,  Evitar repetir explicaciones ya dadas
+- Priorizar información reciente, Mantener coherencia con mensajes anteriores,  Evitar repetir explicaciones ya dadas
 
  # 3. Arquitectura de Memoria
  
@@ -64,3 +64,5 @@ Unos ejemplos serian:
 |Trabajo (RAM)|	Pregunta Actual|	Input actual del usuario|	"¿Cómo resolver esta integral?"|
 |Trabajo (RAM)| Contexto Activo|	Información relevante reciente|	"Tema: Integrales por partes"|
 
+# Diagrama
+<img width="1616" height="618" alt="image" src="https://github.com/user-attachments/assets/82a5e770-8160-4669-a8f1-4dab9706cb07" />
