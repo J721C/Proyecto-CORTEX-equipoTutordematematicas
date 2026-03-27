@@ -18,4 +18,15 @@
 
 ## 2. Arquitectura de Atención con las reglas lógicas definidas.
 
+
+ ## 3. Arquitectura de Memoria
  
+|Tipo de Memoria|	Categoría de Datos|	Descripción|	Ejemplo de Entrada|
+|---------------|-------------------|------------|-------------------|
+|Semántica (LTM)|	Matemáticas Avanzadas	|Teorías, fórmulas y conceptos matemáticos|	"Teorema de Riemann, definición formal"|
+|Semántica (LTM)|	Métodos de Enseñanza	|Estrategias pedagógicas para explicar conceptos	|"Uso de analogías para explicar integrales"|
+|Episódica (LTM)|	Perfil del Usuario	|Información relevante del estudiante|"Nombre: Ana, Nivel: Universitario"|
+|Episódica (LTM)|	Historial de Interacción|	Conversaciones previas importantes	|"Dificultad en cálculo diferencial"|
+|Trabajo (RAM)|	Pregunta Actual|	Input actual del usuario|	"¿Cómo resolver esta integral?"|
+|Trabajo (RAM)| Contexto Activo|	Información relevante reciente|	"Tema: Integrales por partes"|
+
