@@ -28,29 +28,30 @@ Unos ejemplos serian:
 - Errores tipográficos que dificultan parsing
 
 ## Reglas
+#### Reglas 1:
 - Filtrado por longitud, Si el mensaje tiene más de 500 palabras:
 - Priorizar: Sustantivos clave, Variables matemáticas, Números y ecuaciones.
 - Ignorar: Adjetivos innecesarios, Texto narrativo no técnico
-## Regla 2: Detección de intención
+#### Regla 2: Detección de intención
 - Si hay una pregunta explícita → priorizarla,  Si hay múltiples preguntas → seleccionar la más matemática,  Si no hay pregunta → inferir intención principal.
-## Regla 3: Prioridad matemática
+#### Regla 3: Prioridad matemática
  - Detectar y priorizar:
  Ecuaciones,  Símbolos matemáticos,  Expresiones formales, 
  - Reducir peso de:
  Texto descriptivo
-## Regla 4: Manejo de ruido emocional
+#### Regla 4: Manejo de ruido emocional
  Detectar emociones (frustración, confusión)
 - No ignorarlas completamente, pero:
  Priorizar contenido matemático, Ajustar tono de respuesta
- ## Regla 5: Claridad vs ambigüedad
+ #### Regla 5: Claridad vs ambigüedad
 - Si el problema está incompleto:
  Solicitar información mínima necesaria
 - Si está claro:
  Proceder directamente a resolver
-## Regla 6: Compresión inteligente
+#### Regla 6: Compresión inteligente
 - Resumir el input en:
  Problema central, Datos conocidos, Lo que se pide, Ignorar contenido no esencial
-## Regla 7: Contexto acumulado
+#### Regla 7: Contexto acumulado
 - Priorizar información reciente, Mantener coherencia con mensajes anteriores,  Evitar repetir explicaciones ya dadas
 
  # 3. Arquitectura de Memoria
@@ -64,5 +65,11 @@ Unos ejemplos serian:
 |Trabajo (RAM)|	Pregunta Actual|	Input actual del usuario|	"¿Cómo resolver esta integral?"|
 |Trabajo (RAM)| Contexto Activo|	Información relevante reciente|	"Tema: Integrales por partes"|
 
-# Diagrama
+## Diagrama
 <img width="1616" height="618" alt="image" src="https://github.com/user-attachments/assets/82a5e770-8160-4669-a8f1-4dab9706cb07" />
+
+## Diagrama 
+<img width="223" height="791" alt="image" src="https://github.com/user-attachments/assets/4560c858-b5c0-4c7b-93ff-787e460ff40a" />
+
+# Regla de Limpieza de Cache
+- Al pasar 1 hora sin ninguna interaccion el chatbot le escribira si tiene alguna duda o inconveniente, si el usuario le responde es chat no se borrara, pero si el usuario no le responde despues del chatbot le escribiera (pasado otros 20 minutos) el chatbot hara la regla de limpieza de cache, limpiara la memoria ram y memoria contextual, despues de esto estara dispuesta para una nueva conversacion.
