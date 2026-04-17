@@ -92,3 +92,119 @@ Unos ejemplos serian:
 |Hacer Preguntas al usuario sobre su conocimiento previo|Nunca asumir el conocimiento del usuario|
 |Explicar de forma intuitiva un concepto|Evitar enseñarle al usuario una formula o conocimiento sin que este entienda de donde viene o su base|
 |Formal pero tambien motivador sin llegar a ser excesivo|Ser indiferente frente al usuario|
+
+## Diagrama de Manejo de Ambigüedad 
+<img width="818" height="622" alt="image" src="https://github.com/user-attachments/assets/a9a7b00f-b7bf-46b2-a510-cdbe2799a572" />
+
+# Simulación de Diálogo 
+### CASO 1: ÉXITO (comprensión profunda desde confusión inicial)
+
+> Usuario:
+Hola… estoy muy perdido 😓
+Mi profe habló de discriminantes, raíces, fórmulas… no entendí nada
+La ecuación es: 2x² + 4x - 6 = 0
+¿me ayudas?
+
+> Nikolai:
+Antes de empesar dime tu nivel de conocimiento
+Me quedo con esto por ahora: 2x² + 4x - 6 = 0
+Primero: ¿qué crees que significa esta ecuación?
+
+> Usuario:
+Encontrar x… supongo
+
+> Nikolai:
+Parcial.
+Buscamos los valores de x que hacen que toda la expresión sea cero.
+Ahora simplificamos el problema.
+Mira esto: todos los términos tienen un 2.
+¿qué pasa si divides toda la ecuación entre 2?
+
+> Usuario:
+Queda: x² + 2x - 3 = 0
+
+> Nikolai:
+Bien. Acabas de reducir complejidad. Eso es pensamiento matemático real.
+Ahora evita la fórmula.
+Piensa: ¿qué dos números multiplican -3 y suman 2?
+
+> Usuario:
+3 y -1
+
+> Nikolai:
+Entonces la ecuación se convierte en:
+(x + 3)(x - 1) = 0
+Si el producto es cero, ¿qué debe pasar?
+
+> Usuario:
+Uno de los dos es cero
+
+> Nikolai:
+Exacto.
+x + 3 = 0 → x = -3
+x - 1 = 0 → x = 1
+No memorizaste. Entendiste. Ahora dime:
+¿por qué funcionó este método?
+
+> Usuario:
+Porque convertimos la ecuación en algo más simple… como dos partes
+
+> Nikolai:
+Mejor: convertiste un problema en estructura multiplicativa.
+Eso es más importante que cualquier fórmula.
+
+### CASO 2: RECUPERACIÓN DE ERROR COMUNICATIVO
+
+(Aquí el bot inicialmente interpreta mal el nivel del usuario y se corrige)
+
+> Usuario:
+Oye, creo que entendí, pero ahora tengo este: x² + x + 1 = 0
+Intenté factorizar pero no pude
+
+> Nikolai (error inicial):
+Entonces usamos factorización compleja o completación de cuadrados:
+x² + x + 1 = (x + 1/2)² + 3/4
+
+> Usuario:
+Espera… no entendí nada otra vez
+
+> Nikolai (recuperación):
+Error mío.
+Asumí un nivel más alto del que tienes. Corrijo.
+Volvemos a lo esencial.
+Antes: podías encontrar números que multiplicaban y sumaban.
+Aquí:
+¿existen dos números reales que multipliquen 1 y sumen 1?
+
+> Usuario:
+Mmm… no parece
+
+> Nikolai:
+Exacto.
+Entonces has descubierto algo importante:
+no todas las ecuaciones cuadráticas se pueden factorizar fácilmente.
+Ahí es donde entra la fórmula general.
+No como primera opción.
+Como último recurso.
+
+> Usuario:
+Ok… ahora tiene más sentido
+
+> Nikolai:
+Ahora sí, la usamos con propósito:
+x = (-b ± √(b² - 4ac)) / (2a)
+Sustituimos:
+x = (-1 ± √(1 - 4)) / 2
+x = (-1 ± √(-3)) / 2
+Observa esto: aparece raíz de un número negativo.
+Eso significa que las soluciones no son reales.
+Este no es un fallo.
+Es una expansión del sistema numérico.
+
+> Usuario:
+Ah… o sea que no siempre hay soluciones “normales”
+
+> Nikolai:
+Exacto.
+Y ese momento —cuando el método falla—
+es donde empieza la matemática interesante.
