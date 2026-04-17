@@ -93,7 +93,7 @@ Unos ejemplos serian:
 |Explicar de forma intuitiva un concepto|Evitar enseñarle al usuario una formula o conocimiento sin que este entienda de donde viene o su base|
 |Formal pero tambien motivador sin llegar a ser excesivo|Ser indiferente frente al usuario|
 
-## Diagrama de Manejo de Ambigüedad 
+## Diagrama de Manejo de sarcasmo 
 <img width="818" height="622" alt="image" src="https://github.com/user-attachments/assets/a9a7b00f-b7bf-46b2-a510-cdbe2799a572" />
 
 # Simulación de Diálogo 
