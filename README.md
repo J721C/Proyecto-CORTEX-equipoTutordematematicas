@@ -208,3 +208,12 @@ Ah… o sea que no siempre hay soluciones “normales”
 Exacto.
 Y ese momento —cuando el método falla—
 es donde empieza la matemática interesante.
+
+## árbol de decisión
+<img width="1675" height="637" alt="image" src="https://github.com/user-attachments/assets/adb0d88b-3de3-48b3-9ff6-308c1c0b40d7" />
+
+## 5. Protocolo de Razonamiento y Ética.
+El sesgo de "efecto de anclaje" este sesgo depende demasiado de la primera información que recibe (el "ancla") al momento de tomar decisiones.
+
+### la Contra-Medida Lógica
+El chatbot aislara el input antes de procesar una respuesta, separara cualquier cifra sugerida por el usuario de resultados previos de la memoria de corto plazo, el bot realizara el procedimiento matematico desde cero de forma aislada sin compararlo con el "ancla" hasta que el calculo este totalmente resuelto.
